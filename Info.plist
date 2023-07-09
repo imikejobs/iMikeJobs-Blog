@@ -59,7 +59,7 @@
 	<key>UIPrerenderedIcon</key>
 	<true/>
 	<key>UIStatusBarHidden</key>
-	<true/>
+	<false/>
 	<key>UIStatusBarHidden~ipad</key>
 	<true/>
 	<key>UIStatusBarStyle</key>

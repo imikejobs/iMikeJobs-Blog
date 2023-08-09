@@ -14,7 +14,9 @@
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
-	NSURL *url = [NSURL URLWithString:@"http://m40imj.blogspot.com/?m=1"];
+    UIViewController* vc = [[UIViewController alloc]initWithNibName:nil bundle:nil];
+    self.window.rootViewController = vc;
+    NSURL *url = [NSURL URLWithString:@"http://m40imj.blogspot.com/?m=1"];
 	NSURLRequest *request = [NSURLRequest requestWithURL:url];
 	[webView loadRequest:request];
     [window makeKeyAndVisible];

@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
-		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		271A4E5929571B65009DD5FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		271A4E5C29571B90009DD5FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		271A4E5D29571B9F009DD5FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		271A4E5E29571BA7009DD5FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		271A4E5F29571C85009DD5FF /* iMikeJobsBlogAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iMikeJobsBlogAppDelegate.m */; };
+		27327ABB2A86881D00E5FFF0 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2730DEF2166140B90071FB36 /* MainWindow-iPad.xib */; };
 		2745090316A332A9008A2BDA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27567F1B164C073D0060AAEC /* icon.png */; };
 		2745090416A332AC008A2BDA /* icon retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 27567F19164C07380060AAEC /* icon retina.png */; };
 		2745090516A332B1008A2BDA /* icon ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 27567F23164C09070060AAEC /* icon ipad.png */; };
@@ -21,7 +20,6 @@
 		27567F1E164C07860060AAEC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27567F1D164C07860060AAEC /* Default@2x.png */; };
 		27567F20164C078A0060AAEC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 27567F1F164C078A0060AAEC /* Default.png */; };
 		27958180164D334000A5D2A9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2795817F164D334000A5D2A9 /* Default-568h@2x.png */; };
-		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		674247F318B67A0200FE02A1 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 674247F218B67A0200FE02A1 /* Settings.bundle */; };
 		675FD43128C77CE600AA6C0F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 271C81071631663F00C767DA /* MainWindow.xib */; };
 		67634F7E18B75FD900F2B6F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67634F7D18B75FD900F2B6F5 /* Images.xcassets */; };
@@ -58,10 +56,7 @@
 			files = (
 				271A4E5E29571BA7009DD5FF /* CoreGraphics.framework in Frameworks */,
 				271A4E5D29571B9F009DD5FF /* Foundation.framework in Frameworks */,
-				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				271A4E5C29571B90009DD5FF /* UIKit.framework in Frameworks */,
-				271A4E5929571B65009DD5FF /* UIKit.framework in Frameworks */,
-				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +206,7 @@
 				675FD43128C77CE600AA6C0F /* MainWindow.xib in Resources */,
 				27567F1E164C07860060AAEC /* Default@2x.png in Resources */,
 				27567F20164C078A0060AAEC /* Default.png in Resources */,
+				27327ABB2A86881D00E5FFF0 /* MainWindow-iPad.xib in Resources */,
 				27958180164D334000A5D2A9 /* Default-568h@2x.png in Resources */,
 				2745090316A332A9008A2BDA /* icon.png in Resources */,
 				2745090416A332AC008A2BDA /* icon retina.png in Resources */,
@@ -240,6 +236,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -271,6 +268,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
